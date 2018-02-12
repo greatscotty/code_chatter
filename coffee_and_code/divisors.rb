@@ -12,7 +12,6 @@ of that integer.
 # ==============================================================================
 # Do your work here
 
-
 # Version 1:
 def divisors (integer)  
     new_array = []
@@ -26,6 +25,11 @@ def divisors (integer)
         end
         return new_array
 end
+
+# V2:
+def missingno(array)
+    (array[0]..array[-1]).to_a - array
+   end
 
 
 # ==============================================================================
